@@ -1,0 +1,4 @@
+There are various tricks to remeber when solving linked list problems:
+
+1. Most of the times you are given two linked list to perform cerai opertaions on them - Think about creating a dummy node and performing the operations on it and returning the dummy.next as return; but always remember
+   straight away working on dummy can be dangerous as you may lose control ; So, use a temp pointer to the dummy for traversal; So dummy can always be used to refer to Head position.
